@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* keep dark mode scheme */
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+
+/* Gradient name (pink) */
+.gradient-name {
+  background: linear-gradient(90deg, #f472b6, #fb7185);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Correct collapsible section animation */
+.section {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 450ms cubic-bezier(.2,.9,.2,1),
+              opacity 350ms ease;
+}
+
+.section.open {
+  max-height: 1800px;
+  opacity: 1;
+}
+
+/* Navigation button */
+.nav-btn {
+  @apply bg-zinc-900/60 border border-zinc-800 hover:border-zinc-600 
+         rounded-xl px-6 py-3 text-gray-300 hover:text-white 
+         inline-flex items-center gap-2 transition-all;
+}
+
+/* Project card */
+.project-card {
+  @apply bg-zinc-900/40 border border-zinc-800 rounded-xl p-6;
+}
+
+.project-img {
+  @apply rounded-lg mb-4 w-full h-48 object-cover;
+}
+
+.tag {
+  @apply bg-zinc-800/60 text-gray-300 px-3 py-1 rounded-full text-sm border border-zinc-700;
+}
+
+.link-blue {
+  @apply text-blue-400 hover:text-blue-300 inline-flex items-center;
+}
+
+.link-gray {
+  @apply text-gray-300 hover:text-white inline-flex items-center;
+}
+
+.card {
+  @apply bg-zinc-900/40 border border-zinc-800 rounded-xl p-6;
+}
+
+.contact-link {
+  @apply flex items-center justify-center gap-3 text-lg hover:text-blue-400;
+}
+
+.icon-btn {
+  @apply p-3 bg-zinc-800/60 rounded-full hover:bg-zinc-700 border border-zinc-700;
+}
+
+/* Scroll-to-top button */
+.scroll-top-btn {
+  @apply fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 
+         rounded-full p-3 transition-all hover:scale-110 z-50;
+}
+
+.signature-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6rem;        /* smaller so p, y don't cut */
+  line-height: 3rem;      /* fixes p, y cutting issue */
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff77c8, #ff2ba6);
+  -webkit-background-clip: text;
+  color: transparent;
+  white-space: nowrap;     /* keeps it on one line */
+  paddingRight: '8px'
+}
+
+/* Strong dynamic entrance for the name */
+.name-animate {
+  opacity: 0;
+  transform: translateY(40px) scale(0.95);
+  animation: namePop 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes namePop {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-8px) scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
