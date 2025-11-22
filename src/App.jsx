@@ -411,6 +411,12 @@ export default function App() {
   </>
 )}
 
+{/* FOOTER */}
+<footer className="text-center py-6 text-sm text-gray-500 border-t border-zinc-800">
+  © {new Date().getFullYear()} Dimple  — MIT License
+</footer>
+
+
           
       {/* SCROLL TO TOP */}
       
