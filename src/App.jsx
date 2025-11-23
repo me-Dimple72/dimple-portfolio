@@ -212,7 +212,7 @@ export default function App() {
               <span className="text-xl">🛠️</span> Skills
             </button>
             <button onClick={() => toggleSection("contact")} className="nav-btn name-animate">
-              <span className="text-xl">💬</span> Contact
+              <span className="text-xl">💬</span> Connect 
             </button>
           </div>
         </div>
