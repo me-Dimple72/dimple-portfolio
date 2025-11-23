@@ -67,7 +67,7 @@ export default function App() {
       outcome: "A modern real-estate platform designed for seamless property browsing and lead management.",
       link: "http://www.shubhamestate.in/",
       github: "https://github.com/me-Dimple72/Shubham-Estate",
-      image: "/images/project-1.jpg",
+      image: "/public/images/diabetes bg.jpg",
       tech: ["HTML", "CSS", "JavaScript", "Node.js"]
     },
     {
