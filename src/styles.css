@@ -41,7 +41,7 @@ html, body, #root { height: 100%; }
 }
 
 .project-img {
-  @apply rounded-lg mb-4 w-full h-48 object-cover;
+  @apply rounded-lg mb-4 w-full max-h-[400px] object-contain;
 }
 
 .tag {
