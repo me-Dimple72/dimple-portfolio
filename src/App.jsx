@@ -289,7 +289,7 @@ export default function App() {
       {/* CONTACT */}
       <section ref={contactRef} id="contact" className={`section ${openSection === "contact" ? "open" : ""}`}>
         <div className="max-w-2xl mx-auto px-6 py-12 text-center">
-          <h2 className="text-4xl font-bold mb-4">Contact</h2>
+          <h2 className="text-4xl font-bold mb-4">Connect</h2>
           
           <div className="bg-zinc-900/40 rounded-2xl p-8 border border-zinc-800">
             <div className="flex justify-center gap-6 pt-4">
