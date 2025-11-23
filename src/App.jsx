@@ -240,7 +240,9 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-6">
             {projects.map((p, i) => (
               <div key={i} className="project-card">
-                {p.image && <img src={p.image} className="project-img" />}
+                {p.image && <img src={p.image}
+                 alt={p.title}
+                 className="rounded-lg mb-4 w-full h-56 object-cover" />}
                 <h3 className="text-2xl font-bold mb-2">{p.title}</h3>
                 <p className="text-gray-400 mb-4">{p.outcome}</p>
 
