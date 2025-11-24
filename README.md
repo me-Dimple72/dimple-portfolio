@@ -11,7 +11,7 @@ A sleek and interactive personal portfolio built with **React + Vite**, showcasi
 This portfolio displays:
 - ✨ A modern animated UI with smooth transitions  
 - 👩‍💻 My journey as an AI & ML Practitioner  
-- 🧩 Featured real-world projects like **Shubham Estate**  
+- 🧩 Featured real-world project.  
 - 🛠️ Tech skills and tools I frequently use  
 - 📬 Easy contact options including GitHub, LinkedIn & Email  
 
@@ -34,7 +34,6 @@ This portfolio displays:
 |-------------|--------------|
 | Frontend UI | React, JavaScript, Tailwind CSS |
 | Dev Tools   | Git, Vercel, VS Code |
-| Package Manager | npm |
 
 ---
 
