@@ -17,7 +17,7 @@ This portfolio displays:
 
 ---
 
-## 🧑‍🎨 Features
+##
 
 - ⚡ Fast and lightweight — powered by **Vite**
 - 🎯 Fully responsive design
