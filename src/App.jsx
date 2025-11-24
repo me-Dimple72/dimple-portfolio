@@ -240,7 +240,7 @@ export default function App() {
   id="projects"
   className={`relative z-10 transition-all duration-500 ${
     openSection === "projects"
-      ? "opacity-100 max-h-screen"
+      ? "opacity-100 "
       : "opacity-0 max-h-0 overflow-hidden"
   }`}
 >
