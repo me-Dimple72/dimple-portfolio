@@ -24,7 +24,6 @@ This portfolio displays:
 - 🎨 Dynamic animations and neon effects
 - 🏷️ Skilled badges & interactive navigation
 - 🔒 Secure external links for resume and contact
-- 🌙 Dark futuristic theme
 
 ---
 
