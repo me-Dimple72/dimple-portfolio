@@ -1,4 +1,4 @@
-# 🌐 Portfolio
+# 
 
 A sleek and interactive personal portfolio built with **React + Vite**, showcasing my work, skills, and achievements in the field of **Data Science & Machine Learning**.
 
