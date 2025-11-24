@@ -6,7 +6,7 @@ A sleek and interactive personal portfolio built with **React + Vite**, showcasi
 
 
 
-## 💡 About The Portfolio
+## 
 
 This portfolio displays:
 - ✨ A modern animated UI with smooth transitions  
