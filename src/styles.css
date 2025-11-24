@@ -41,12 +41,10 @@ html, body, #root { height: 100%; }
 }
 
 .project-img {
-  <img
-    src={p.image}
-    alt={p.title}
-    className="rounded-xl mb-4 w-full h-72 object-contain bg-black"
-  />
+  @apply rounded-lg mb-4 w-full max-h-[400px] object-contain;
+  
 }
+
 
 .tag {
   @apply bg-zinc-800/60 text-gray-300 px-3 py-1 rounded-full text-sm border border-zinc-700;

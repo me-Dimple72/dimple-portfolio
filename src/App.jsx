@@ -83,7 +83,7 @@ export default function App() {
       outcome: "Fast e-commerce MVP.",
       link: "#",
       github: "#",
-      image: "/images/diabetesbg.jpg",
+      image: "/images/unnamed.jpg",
       tech: ["Next.js", "Stripe", "PostgreSQL"]
     }
 
@@ -233,39 +233,106 @@ export default function App() {
       </section>
 
       {/* PROJECTS */}
-      <section ref={projectsRef} id="projects" className={`section ${openSection === "projects" ? "open" : ""}`}>
-        <div className="max-w-6xl mx-auto py-12 px-6">
-          <h2 className="text-4xl font-bold mb-6 text-center">Projects</h2>
+      {/* PROJECTS */}
+ {/* PROJECTS (Similar to Ankit Raj Style — Vertical Grid + Movement) */}
+<section
+  ref={projectsRef}
+  id="projects"
+  className={`relative z-10 transition-all duration-500 ${
+    openSection === "projects"
+      ? "opacity-100 max-h-screen"
+      : "opacity-0 max-h-0 overflow-hidden"
+  }`}
+>
+  <div className="max-w-6xl mx-auto py-16 px-6">
+    <h2 className="text-4xl font-bold mb-12 text-center text-white">
+      Projects
+    </h2>
 
-          <div className="grid md:grid-cols-2 gap-6">
-            {projects.map((p, i) => (
-              <div key={i} className="project-card">
-                {p.image && <img src={p.image}
-                 alt={p.title}
-                 className="rounded-xl mb-4 w-full h-72 object-contain bg-black" />}
-                <h3 className="text-2xl font-bold mb-2">{p.title}</h3>
-                <p className="text-gray-400 mb-4">{p.outcome}</p>
+    {/* Grid Layout like Ankit Raj */}
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      {projects.map((p, i) => (
+        <div
+          key={i}
+          className="group bg-[#111] rounded-xl border border-zinc-700/50 overflow-hidden
+          transition-all duration-[650ms] hover:scale-[1.04] hover:border-pink-600
+          shadow-lg hover:shadow-pink-600/20 cursor-pointer"
+        >
+          {/* IMAGE with MOVEMENT */}
+          <div
+            className="relative overflow-hidden"
+            style={{ aspectRatio: "16/9" }}
+          >
+            <img
+              src={p.image}
+              alt={p.title}
+              className="w-full h-full object-cover transition-all duration-[900ms]
+              group-hover:scale-[1.20] group-hover:rotate-[1deg]"
+            />
 
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {p.tech.map((t, ii) => (
-                    <span key={ii} className="tag">{t}</span>
-                  ))}
-                </div>
+            {/* Overlay On Hover */}
+            <div
+              className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100
+              transition-opacity duration-500"
+            />
 
-                <div className="flex items-center gap-5">
-                  <a href={p.link} className="link-blue">
-                    Live <ExternalLink size={16} />
-                  </a>
+            {/* Hover Action Icons */}
+            <div
+              className="absolute inset-0 flex items-center justify-center gap-4
+              opacity-0 group-hover:opacity-100 transition duration-500"
+            >
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-pink-600 hover:bg-pink-700 rounded-full transition-all
+                group-hover:translate-y-[-4px]"
+              >
+                <ExternalLink size={18} />
+              </a>
+              <a
+                href={p.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-zinc-900 hover:bg-zinc-800 rounded-full transition-all
+                group-hover:translate-y-[-4px]"
+              >
+                <Github size={18} />
+              </a>
+            </div>
+          </div>
 
-                  <a href={p.github} className="link-gray">
-                    Code <Github size={16} />
-                  </a>
-                </div>
-              </div>
-            ))}
+          {/* DETAILS */}
+          <div className="p-6">
+            <h3
+              className="text-xl font-bold text-white mb-2 transition-colors
+              group-hover:text-pink-500"
+            >
+              {p.title}
+            </h3>
+
+            <p className="text-gray-400 text-sm mb-4">
+              {p.outcome}
+            </p>
+
+            {/* TECH STACK */}
+            <div className="flex flex-wrap gap-2">
+              {p.tech.map((t, ii) => (
+                <span
+                  key={ii}
+                  className="text-xs px-3 py-1 rounded-md
+                  bg-zinc-800 border border-zinc-700 text-gray-300"
+                >
+                  {t}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* SKILLS */}
       <section ref={skillsRef} id="skills" className={`section ${openSection === "skills" ? "open" : ""}`}>
