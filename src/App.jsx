@@ -233,9 +233,7 @@ export default function App() {
       </section>
 
       {/* PROJECTS */}
-      {/* PROJECTS */}
- {/* PROJECTS (Similar to Ankit Raj Style — Vertical Grid + Movement) */}
-<section
+      <section
   ref={projectsRef}
   id="projects"
   className={`relative z-10 transition-all duration-500 ${
@@ -244,35 +242,35 @@ export default function App() {
       : "opacity-0 max-h-0 overflow-hidden"
   }`}
 >
-  <div className="max-w-6xl mx-auto py-16 px-6">
+  <div className="max-w-7xl mx-auto py-16 px-6">
     <h2 className="text-4xl font-bold mb-12 text-center text-white">
       Projects
     </h2>
 
-    {/* Grid Layout like Ankit Raj */}
-    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    {/* Grid Layout*/}
+    <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-10">
       {projects.map((p, i) => (
         <div
           key={i}
-          className="group bg-[#111] rounded-xl border border-zinc-700/50 overflow-hidden
-          transition-all duration-[650ms] hover:scale-[1.04] hover:border-pink-600
-          shadow-lg hover:shadow-pink-600/20 cursor-pointer"
+          className="group bg-[#111] rounded-xl border border-zinc overflow-hidden
+          transition-all duration-[650ms]  hover:border-pink-600
+          shadow-lg  cursor-pointer"
         >
           {/* IMAGE with MOVEMENT */}
           <div
-            className="relative overflow-hidden"
-            style={{ aspectRatio: "16/9" }}
+            className="relative h-64"
+            
           >
             <img
               src={p.image}
               alt={p.title}
-              className="w-full h-full object-cover transition-all duration-[900ms]
-              group-hover:scale-[1.20] group-hover:rotate-[1deg]"
+              className="w-full h-full object-cover transition-all duration-[700ms]
+              group-hover:scale-[1.20]  "
             />
 
             {/* Overlay On Hover */}
             <div
-              className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100
+              className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100
               transition-opacity duration-500"
             />
 
@@ -285,8 +283,8 @@ export default function App() {
                 href={p.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 bg-pink-600 hover:bg-pink-700 rounded-full transition-all
-                group-hover:translate-y-[-4px]"
+                className="p-3 bg-zinc-900 hover:bg-pink-700 rounded-full transition-all
+                "
               >
                 <ExternalLink size={18} />
               </a>
@@ -294,8 +292,7 @@ export default function App() {
                 href={p.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 bg-zinc-900 hover:bg-zinc-800 rounded-full transition-all
-                group-hover:translate-y-[-4px]"
+                className="p-3 bg-zinc-900 hover:bg-pink-700 rounded-full transition-all"
               >
                 <Github size={18} />
               </a>
@@ -305,7 +302,7 @@ export default function App() {
           {/* DETAILS */}
           <div className="p-6">
             <h3
-              className="text-xl font-bold text-white mb-2 transition-colors
+              className="text-xl font-bold text-white mb-4 transition-colors
               group-hover:text-pink-500"
             >
               {p.title}
@@ -320,7 +317,7 @@ export default function App() {
               {p.tech.map((t, ii) => (
                 <span
                   key={ii}
-                  className="text-xs px-3 py-1 rounded-md
+                  className="text-sm px-3 py-1 rounded-full
                   bg-zinc-800 border border-zinc-700 text-gray-300"
                 >
                   {t}
