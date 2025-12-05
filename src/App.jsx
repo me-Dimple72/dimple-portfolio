@@ -97,7 +97,11 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white relative overflow-x-hidden">
+    <div className="min-h-screen  text-white relative overflow-x-hidden">
+
+      {/* ===== 3D ROTATING SCI-FI GRID BACKGROUND ===== */}
+<div className="sci-fi-grid-bg"></div>
+
 
     {/* TOP RIGHT HAMBURGER */}
 <div 
@@ -164,7 +168,7 @@ export default function App() {
     </div>
 
 
-      {/* Background Blob */}
+      {/* Background Blob }
       <div
         className="fixed pointer-events-none z-0"
         style={{
@@ -177,7 +181,7 @@ export default function App() {
           filter: "blur(70px)",
           transition: "left 0.20s ease-out, top 0.20s ease-out"
         }}
-      />
+      /> */}
 
       {/* HERO */}
       <main className="min-h-screen flex items-center justify-center px-6 text-center">

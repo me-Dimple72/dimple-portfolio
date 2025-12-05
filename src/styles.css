@@ -133,3 +133,38 @@ html, body, #root { height: 100%; }
     transform: translate(-50%, -50%);
   }
 }
+
+
+/* ===== 3D ROTATING SCI-FI GRID BACKGROUND ===== */
+/* === FINAL FAST ENERGETIC TECH MOTION FOR YOUR IMAGE === */
+
+.sci-fi-grid-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image: url("/images/sci-fi-grid.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  animation: pulseZoom 6s ease-in-out infinite,
+             drift 2s linear infinite;
+}
+
+/* Fast energetic zoom-in/out pulse */
+@keyframes pulseZoom {
+  0% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.07); filter: brightness(1.15); }
+  100% { transform: scale(1); filter: brightness(1); }
+}
+
+/* Particle-like drifting motion */
+@keyframes drift {
+  0% { background-position: center; }
+  25% { background-position: 52% 48%; }
+  50% { background-position: 48% 52%; }
+  75% { background-position: 51% 49%; }
+  100% { background-position: center; }
+}
