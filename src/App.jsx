@@ -63,28 +63,23 @@ export default function App() {
 
   const projects = [
     {
-      title: "Shubham-Estate",
-      outcome: "A modern real-estate platform designed for seamless property browsing and lead management.",
-      link: "http://www.shubhamestate.in/",
-      github: "https://github.com/me-Dimple72/Shubham-Estate",
-      image: "/images/diabetesbg.jpg",
-      tech: ["HTML", "CSS", "JavaScript", "Node.js"]
-    },
-    {
       title: "Diabetes Prediction using ML",
       outcome: "Fast e-commerce MVP.",
       link: "#",
       github: "#",
-      image: "/images/project-2.jpg",
+      image: "/images/ai.png",
       tech: ["Next.js", "Stripe", "PostgreSQL"]
     },
     {
-      title: "Diabetes Care Companion",
-      outcome: "Fast e-commerce MVP.",
+      title: "SugarSense AI",
+      outcome: "AI-powered diabetes analysis & health assistant.",
       link: "#",
       github: "#",
       image: "/images/unnamed.jpg",
-      tech: ["Next.js", "Stripe", "PostgreSQL"]
+      outcome: "An AI-powered diabetes health assistant that analyzes blood sugar, medication and activity patterns in real time using LLM intelligence.Includes a smart analyzer + chatbot for personalized, medically-aware recommendations.",
+      tech: ["FastAPI", "Groq LLM", "React", "TailwindCSS"]
+      
+
     }
 
   ];
