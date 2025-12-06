@@ -242,7 +242,7 @@ export default function App() {
   }`}
 >
   <div className="max-w-7xl mx-auto py-16 px-6">
-    <h2 className="text-4xl font-bold mb-12 text-center text-white">
+    <h2 className="text-4xl font-bold mb-4 text-center text-white">
       Projects
     </h2>
 
@@ -333,23 +333,43 @@ export default function App() {
       {/* SKILLS */}
       <section ref={skillsRef} id="skills" className={`section ${openSection === "skills" ? "open" : ""}`}>
         <div className="max-w-6xl mx-auto py-12 px-6">
-          <h2 className="text-4xl font-bold mb-6 text-center">Skills</h2>
+          <h2 className="text-4xl font-bold mb-4 text-center">Skills</h2>
+          
 
-          <div className="grid md:grid-cols-2 gap-6">
-            {skills.map((g, i) => (
-              <div key={i} className="card">
-                <h3 className="text-2xl font-bold mb-4">{g.category}</h3>
 
-                <div className="flex flex-wrap gap-3">
-                  {g.items.map((s, ii) => (
-                    <span key={ii} className="tag">{s}</span>
-                  ))}
-                </div>
-              </div>
+    {/* GRID */}
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+      
+      {skills.map((g, i) => (
+        <div
+          key={i}
+          className="skill-card group"
+        >
+          {/* Top Icon / Letter */}
+          <div className="skill-icon">
+            {g.category[0]}
+          </div>
+
+          {/* Title */}
+          <h3 className="text-2xl font-bold mb-4 text-white tracking-wide">
+            {g.category}
+          </h3>
+
+          {/* Skills List */}
+          <div className="flex flex-wrap justify-center gap-3">
+            {g.items.map((s, ii) => (
+              <span key={ii} className="skill-tag">
+                {s}
+              </span>
             ))}
           </div>
         </div>
-      </section>
+      ))}
+
+    </div>
+  </div>
+</section>
+
 
       {/* CONTACT */}
       <section ref={contactRef} id="contact" className={`section ${openSection === "contact" ? "open" : ""}`}>
