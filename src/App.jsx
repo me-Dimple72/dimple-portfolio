@@ -85,11 +85,36 @@ export default function App() {
   ];
 
   const skills = [
-    { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"] },
-    { category: "Backend", items: ["Node.js", "Express", "Python", "Django", "REST APIs"] },
-    { category: "Database", items: ["MongoDB", "PostgreSQL", "Firebase", "MySQL"] },
-    { category: "Tools", items: ["Git", "Docker", "Vercel", "Figma"] }
-  ];
+  {
+    category: "Languages",
+    items: ["Python", "HTML", "CSS", "SQL", "R"]
+  },
+  {
+    category: "Frameworks & Libraries",
+    items: [
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "Matplotlib",
+      "FastAPI"
+    ]
+  },
+  {
+    category: "Web Hosting",
+    items: ["GitHub", "Netlify", "Vercel", "Hostinger", "Render"]
+  },
+  {
+    category: "Version Control",
+    items: ["Git", "PowerShell", "Windows Terminal"]
+  },
+  {
+    category: "Design Tools",
+    items: ["Adobe Photoshop", "Canva"]
+  }
+];
+
 
   return (
     <div className="min-h-screen  text-white relative overflow-x-hidden">
