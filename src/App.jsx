@@ -80,7 +80,7 @@ export default function App() {
   const skills = [
   {
     category: "Languages",
-    items: ["Python", "SQL", "R","C","Basic JS"]
+    items: ["Python", "SQL", "R","C"]
   },
 
  {
@@ -96,6 +96,11 @@ export default function App() {
     category: "Libraries",
     items: ["Numpy","Pandas","Matplotlib","OpenCV","Seaborn"]
   },
+{
+    category: "AI-ML",
+    items: ["Deep Learning","NLP","YOLO","MediaPipe"]
+  },
+
 
   {
     category: "Web Hosting",
@@ -106,6 +111,7 @@ export default function App() {
     category:"Developer Tools",
     items: ["Git","Jupyter","Google Colab"]
   },
+
   
 ];
 
@@ -182,21 +188,6 @@ export default function App() {
     </div>
 
 
-      {/* Background Blob }
-      <div
-        className="fixed pointer-events-none z-0"
-        style={{
-          width: "600px",
-          height: "600px",
-          left: `${mouse.x - 300}px`,
-          top: `${mouse.y - 300}px`,
-          background:
-            "radial-gradient(circle, rgba(236,72,153,0.08) 0%, rgba(59,130,246,0.06) 50%, transparent 70%)",
-          filter: "blur(70px)",
-          transition: "left 0.20s ease-out, top 0.20s ease-out"
-        }}
-      /> */}
-
       {/* HERO */}
       <main className="min-h-screen flex items-center justify-center px-6 text-center">
         <div className="w-full max-w-4xl">
@@ -239,10 +230,11 @@ export default function App() {
       {/* ABOUT */}
       <section ref={aboutRef} id="about" className={`section ${openSection === "about" ? "open" : ""}`}>
         <div className="max-w-4xl mx-auto py-12 px-6">
-          <h2 className="text-4xl font-bold mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold mb-4">About </h2>
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8">
             <p className="text-gray-300 mb-6">
-              I’m a Data Science and Machine Learning enthusiast with hands-on experience in building predictive models and deploying ML solutions.
+              Focused on building production-ready AI and ML systems with 
+              clean data pipelines, reproducible experiments, and scalable deployment workflows.
               I enjoy contributing to open-source, exploring new technologies, and continuously improving my skills.
               I’m passionate about creating meaningful work and collaborating within the developer community.
             </p>
