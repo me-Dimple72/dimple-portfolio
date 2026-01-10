@@ -82,31 +82,19 @@ export default function App() {
     category: "Languages",
     items: ["Python", "SQL", "R","C","Basic JS"]
   },
-  {
-    category: "Frameworks & Libraries",
-    items: [
-      "NumPy",
-      "Pandas",
-      "Scikit-learn",
-      "TensorFlow",
-      "PyTorch",
-      "Matplotlib",
-      "FastAPI"
-    ]
-  },
-{
+
+ {
     category: "Frameworks",
     items: [
       "Scikit-learn",
       "TensorFlow",
       "PyTorch",
-      "Matplotlib",
-      "FastAPI"
+      "Keras","FastAPI"
     ]
   },
-{
+ {
     category: "Libraries",
-    items: ["Numpy","Pandas",""]
+    items: ["Numpy","Pandas","Matplotlib","OpenCV","Seaborn"]
   },
 
   {
