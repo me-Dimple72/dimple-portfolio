@@ -62,14 +62,7 @@ export default function App() {
   };
 
   const projects = [
-    {
-      title: "Diabetes Prediction using ML",
-      outcome: "Fast e-commerce MVP.",
-      link: "#",
-      github: "#",
-      image: "/images/ai.png",
-      tech: ["Next.js", "Stripe", "PostgreSQL"]
-    },
+    
     {
       title: "SugarSense AI",
       outcome: "AI-powered diabetes analysis & health assistant.",
@@ -81,13 +74,14 @@ export default function App() {
       
 
     }
+    
 
   ];
 
   const skills = [
   {
     category: "Languages",
-    items: ["Python", "HTML", "CSS", "SQL", "R"]
+    items: ["Python", "SQL", "R","C"]
   },
   {
     category: "Frameworks & Libraries",
@@ -105,14 +99,12 @@ export default function App() {
     category: "Web Hosting",
     items: ["GitHub", "Netlify", "Vercel", "Hostinger", "Render"]
   },
+  
   {
-    category: "Version Control",
-    items: ["Git", "PowerShell", "Windows Terminal"]
+    category:"Developer Tools",
+    items: ["Git","Jupyter","Google Colab"]
   },
-  {
-    category: "Design Tools",
-    items: ["Adobe Photoshop", "Canva"]
-  }
+  
 ];
 
 
@@ -471,6 +463,19 @@ export default function App() {
 
       {/* EXPERIENCE BLOCKS */}
       <div className="space-y-8">
+
+{/* BLOCK 4 */}
+        <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6">
+          <h3 className="text-2xl font-semibold text-white">
+            AI intern
+          </h3>
+          <p className="text-sm text-gray-400 mb-2">
+            Infosys Springboard  
+          </p>
+          <p className="leading-relaxed">
+            AI enhanced imaging documentation.
+          </p>
+        </div>
 
         {/* BLOCK 1 */}
         <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6">
