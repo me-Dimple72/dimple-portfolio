@@ -74,14 +74,13 @@ export default function App() {
       
 
     }
-    
 
   ];
 
   const skills = [
   {
     category: "Languages",
-    items: ["Python", "SQL", "R","C"]
+    items: ["Python", "SQL", "R","C","Basic JS"]
   },
   {
     category: "Frameworks & Libraries",
@@ -95,6 +94,21 @@ export default function App() {
       "FastAPI"
     ]
   },
+{
+    category: "Frameworks",
+    items: [
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "Matplotlib",
+      "FastAPI"
+    ]
+  },
+{
+    category: "Libraries",
+    items: ["Numpy","Pandas",""]
+  },
+
   {
     category: "Web Hosting",
     items: ["GitHub", "Netlify", "Vercel", "Hostinger", "Render"]
