@@ -72,46 +72,41 @@ export default function App() {
       outcome: "An AI-powered diabetes health assistant that analyzes blood sugar, medication and activity patterns in real time using LLM intelligence.Includes a smart analyzer + chatbot for personalized, medically-aware recommendations.",
       tech: ["FastAPI", "Groq LLM", "React", "TailwindCSS"]
       
-
     }
 
   ];
 
-  const skills = [
+  const skills =
+   [
   {
     category: "Languages",
     items: ["Python", "SQL", "R","C"]
   },
 
- {
+  {
     category: "Frameworks",
     items: [
-      "Scikit-learn",
-      "TensorFlow",
-      "PyTorch",
-      "Keras","FastAPI"
+      "Scikit-learn","TensorFlow","PyTorch","Keras","FastAPI"
     ]
   },
  {
     category: "Libraries",
-    items: ["Numpy","Pandas","Matplotlib","OpenCV","Seaborn"]
+    items: ["Numpy","Pandas","Matplotlib","Seaborn"]
   },
 {
     category: "AI-ML",
-    items: ["Deep Learning","NLP","YOLO","MediaPipe"]
-  },
-
-
-  {
-    category: "Web Hosting",
-    items: ["GitHub", "Netlify", "Vercel", "Hostinger", "Render"]
+    items: ["Deep Learning","Open AI","Generative AI","NLP","OpenCV","YOLO","MediaPipe"]
   },
   
   {
     category:"Developer Tools",
-    items: ["Git","Jupyter","Google Colab"]
+    items: ["Github","Jupyter","Google Colab"]
   },
 
+  {
+    category: "Web Hosting",
+    items: [ "Netlify", "Vercel", "Hostinger", "Render"]
+  },
   
 ];
 

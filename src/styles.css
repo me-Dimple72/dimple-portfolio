@@ -24,8 +24,15 @@ html, body, #root { height: 100%; }
 }
 
 .section.open {
-  max-height: 1800px;
+  max-height: 5000px;
   opacity: 1;
+}
+
+/*Mobile adjustments */
+@media (max-width: 768px) {
+  .section.open {
+    max-height: 8000px;
+  }
 }
 
 /* Navigation button */
