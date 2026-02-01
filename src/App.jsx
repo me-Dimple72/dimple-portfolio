@@ -246,7 +246,7 @@ export default function App() {
 
       {/* ABOUT */}
       <section ref={aboutRef} id="about" className={`section ${openSection === "about" ? "open" : ""}`}>
-        <div className="max-w-4xl mx-auto py-12 px-6">
+        <div className="max-w-4xl mx-auto py-6 px-6">
           <h2 className="text-4xl font-bold mb-4">About </h2>
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8">
             <p className="text-gray-300 mb-6">
@@ -269,7 +269,7 @@ export default function App() {
       : "opacity-0 max-h-0 overflow-hidden"
   }`}
 >
-  <div className="max-w-7xl mx-auto py-16 px-6">
+  <div className="max-w-7xl mx-auto py-6 px-12">
     <h2 className="text-4xl font-bold mb-4 text-center text-white">
       Projects
     </h2>
@@ -285,14 +285,14 @@ export default function App() {
         >
           {/* IMAGE with MOVEMENT */}
           <div
-            className="relative h-64"
+            className="relative h-80 md:h-96 overflow-hidden"
             
           >
             <img
               src={p.image}
               alt={p.title}
               className="w-full h-full object-cover transition-all duration-[1000ms]
-              group-hover:scale-[1.20]  "
+              group-hover:scale-[1.2]  "
             />
 
             {/* Overlay On Hover */}
@@ -360,7 +360,7 @@ export default function App() {
 
       {/* SKILLS */}
       <section ref={skillsRef} id="skills" className={`section ${openSection === "skills" ? "open" : ""}`}>
-        <div className="max-w-6xl mx-auto py-12 px-6">
+        <div className="max-w-6xl mx-auto py-6 px-6">
           <h2 className="text-4xl font-bold mb-4 text-center">Skills</h2>
           
 
