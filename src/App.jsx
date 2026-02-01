@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import ContactForm from "./ContactForm";
 import {
   Github,
   Linkedin,
@@ -17,7 +18,7 @@ export default function App() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [experienceOpen, setExperienceOpen] = useState(false);
-
+  const [contactFormOpen, setContactFormOpen] = useState(false);
 
 
   const aboutRef = useRef(null);
@@ -25,7 +26,7 @@ export default function App() {
   const skillsRef = useRef(null);
   const contactRef = useRef(null);
   const experienceRef = useRef(null);
-
+  const contactFormRef = useRef(null);
 
   // Floating light
   useEffect(() => {
@@ -171,6 +172,17 @@ export default function App() {
   Experience
 </div>
 
+{/*CONTACT  */}
+<div
+  className="mx-6 block text-start text-pink-500 font-semibold py-2 rounded-lg
+             hover:bg-pink-400 transition "
+  onClick={() => {
+    setMenuOpen(false);        // close hamburger
+    setContactFormOpen(true);  // open form
+  }}
+>
+  Contact Me
+</div>
 
     </div>
   </>
@@ -377,7 +389,7 @@ export default function App() {
 </section>
 
 
-      {/* CONTACT */}
+      {/* CONNECT */}
       <section ref={contactRef} id="contact" className={`section ${openSection === "contact" ? "open" : ""}`}>
         <div className="max-w-2xl mx-auto px-6 py-12 text-center">
           <h2 className="text-4xl font-bold mb-4">Connect</h2>
@@ -514,6 +526,45 @@ export default function App() {
     </div>
   </>
 )}
+
+{/* CONTACT FORM – HAMBURGER ONLY */}
+{/* CONTACT FORM MODAL */}
+{contactFormOpen && (
+  <>
+    {/* DARK OVERLAY */}
+    <div
+      className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[90]"
+      onClick={() => setContactFormOpen(false)}
+    ></div>
+
+    {/* POPUP WINDOW */}
+    <div
+      className="fixed top-1/2 left-1/2 w-[90%] max-w-2xl max-h-[85vh]
+                 overflow-y-auto
+                 -translate-x-1/2 -translate-y-1/2
+                 bg-zinc-900 border border-zinc-700
+                 rounded-2xl p-8 shadow-lg z-[100]
+                 animate-[fadeUp_0.35s_ease-out]"
+    >
+      {/* CLOSE BUTTON */}
+      <div
+        className="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl cursor-pointer"
+        onClick={() => setContactFormOpen(false)}
+      >
+        ✕
+      </div>
+
+      {/* HEADING */}
+      <h2 className="text-3xl font-bold mb-6 text-pink-400 text-center">
+        Contact Me
+      </h2>
+
+      {/* CONTACT FORM COMPONENT */}
+      <ContactForm />
+    </div>
+  </>
+)}
+
 
 {/* FOOTER */}
 <footer className="text-center py-6 text-sm text-gray-500 border-t border-zinc-800">
