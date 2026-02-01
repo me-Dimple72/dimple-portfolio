@@ -73,15 +73,15 @@ export default function App() {
       outcome: "An AI-powered diabetes health assistant that analyzes blood sugar, medication and activity patterns in real time using LLM intelligence.Includes a smart analyzer + chatbot for personalized, medically-aware recommendations.",
       tech: ["FastAPI", "Groq LLM", "React", "TailwindCSS"]
       
-    }
+    },
 
     {
-      title: "AI",
-      link: "https://sugar-sense-ai.vercel.app",
-      github: "https://github.com/me-Dimple72/SugarSense-AI",
+      title: "AI-Powered Enhanced EHR Imaging & Documentation System",
+      outcome: "AI-powered diabetes analysis & health assistant.",
+      github: "https://github.com/me-Dimple72/",
       image: "/images/unnamed.jpg",
-      outcome: "smart analyzer + ce recommendations.",
-      tech: ["FastAPI", "Groq LLM", "React", "TailwindCSS"]
+      outcome: "AI-based solution to enhance medical images and automate clinical documentation using OpenCV and Azure OpenAI, supporting ICD-10 coding and EHR workflows.",
+      tech: ["Python", "OpenCV", "Azure OpenAI","ICD-10 Code"]
       
     }
 
@@ -291,7 +291,7 @@ export default function App() {
             <img
               src={p.image}
               alt={p.title}
-              className="w-full h-full object-cover transition-all duration-[700ms]
+              className="w-full h-full object-cover transition-all duration-[1000ms]
               group-hover:scale-[1.20]  "
             />
 
