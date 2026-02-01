@@ -75,6 +75,16 @@ export default function App() {
       
     }
 
+    {
+      title: " AI",
+      link: "https://sugar-sense-ai.vercel.app",
+      github: "https://github.com/me-Dimple72/SugarSense-AI",
+      image: "/images/unnamed.jpg",
+      outcome: "Includes a smart analyzer + ce recommendations.",
+      tech: ["FastAPI", "Groq LLM", "React", "TailwindCSS"]
+      
+    }
+
   ];
 
   const skills =
