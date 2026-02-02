@@ -79,7 +79,7 @@ export default function App() {
       title: "AI-Powered Enhanced EHR Imaging & Documentation System",
       outcome: "AI-powered diabetes analysis & health assistant.",
       github: "https://github.com/me-Dimple72/",
-      image: "/images/unnamed.jpg",
+      image: "public/images/ehr.png" ,
       outcome: "AI-based solution to enhance medical images and automate clinical documentation using OpenCV and Azure OpenAI, supporting ICD-10 coding and EHR workflows.",
       tech: ["Python", "OpenCV", "Azure OpenAI","ICD-10 Code"]
       
