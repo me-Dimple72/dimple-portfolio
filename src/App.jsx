@@ -88,10 +88,10 @@ export default function App() {
     {
       title: "Vision Lingo - Learning from the world around you ",
       outcome: "AI-powered Real-time Object Detection and Multilingual Vocabulary Learning App",
-      link: "https://sugar-sense-ai.vercel.app",
-      github: "https://github.com/me-Dimple72/SugarSense-AI",
+      link: "",
+      github: "https://github.com/me-Dimple72/VisionLingo",
       image: "/images/vision lingo.png",
-      outcome: "An AI-powered diabetes health assistant that analyzes blood sugar, medication and activity patterns in real time using LLM intelligence.Includes a smart analyzer + chatbot for personalized, medically-aware recommendations.",
+      outcome: "",
       tech: ["TensorFlow", "COCO", "Multilingual Model", "NLP","Web Speech API "]
       
     },
