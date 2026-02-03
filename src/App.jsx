@@ -92,7 +92,7 @@ export default function App() {
       github: "https://github.com/me-Dimple72/SugarSense-AI",
       image: "/images/vision lingo.png",
       outcome: "An AI-powered diabetes health assistant that analyzes blood sugar, medication and activity patterns in real time using LLM intelligence.Includes a smart analyzer + chatbot for personalized, medically-aware recommendations.",
-      tech: ["FastAPI", "Groq LLM", "React", "TailwindCSS"]
+      tech: ["TensorFlow", "COCO", "Multilingual Model", "NLP","Web Speech API "]
       
     },
 
