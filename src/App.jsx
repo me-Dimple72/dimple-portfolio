@@ -78,7 +78,8 @@ export default function App() {
     {
       title: "AI-Powered Enhanced EHR Imaging & Documentation System",
       outcome: "AI-powered diabetes analysis & health assistant.",
-      github: "https://github.com/me-Dimple72/",
+      github: "https://github.com/me-Dimple72/AI_Enhanced_EHR_TeamA",
+      link: "https://github.com/me-Dimple72/AI_Enhanced_EHR_TeamA",
       image: "/images/ehr.png" ,
       outcome: "AI-based solution to enhance medical images and automate clinical documentation using OpenCV and Azure OpenAI, supporting ICD-10 coding and EHR workflows.",
       tech: ["Python", "OpenCV", "Azure OpenAI","ICD-10 Code"]
@@ -442,7 +443,6 @@ export default function App() {
 
       {/* EXPERIENCE SECTION */}
 
-{/* EXPERIENCE (FULL WIDTH SECTION LIKE PROJECTS) */}
 {experienceOpen && (
   <>
     {/* DARK OVERLAY */}
@@ -484,21 +484,23 @@ export default function App() {
             Infosys Springboard  
           </p>
           <p className="leading-relaxed">
-            AI enhanced imaging documentation.
+            	•	Enhanced medical image quality by ~35% using OpenCV-based image processing techniques, improving diagnostic readability.<br />
+	            •	Automated parts of EHR documentation, reducing manual effort by ~50–60% using Generative AI.
           </p>
         </div>
 
-        {/* BLOCK 1 */}
+        {/* BLOCK 3 */}
         <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6">
           <h3 className="text-2xl font-semibold text-white">
-            Campaign Strategist – EMC
+            Open Source Contributor
           </h3>
           <p className="text-sm text-gray-400 mb-2">
-            Lectrix / InterferenceTechnology.com  
+            GirlScript Summer of Code 
           </p>
           <p className="leading-relaxed">
-            Helping electronics and EMC/EMI companies increase visibility, generate leads, 
-            and connect with high-intent engineers.
+            • Contributed to the open-source projects by fixing issues, improving documentation, 
+            building features<br />
+            • Worked with tools like Git, GitHub, version control systems, and front-end technologies.<br />
           </p>
         </div>
 
@@ -517,20 +519,6 @@ export default function App() {
           </p>
         </div>
 
-        {/* BLOCK 3 */}
-        <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6">
-          <h3 className="text-2xl font-semibold text-white">
-            Open Source Contributor
-          </h3>
-          <p className="text-sm text-gray-400 mb-2">
-            GirlScript Summer of Code 
-          </p>
-          <p className="leading-relaxed">
-            • Contributed to the open-source projects by fixing issues, improving documentation, 
-            building features<br />
-            • Worked with tools like Git, GitHub, version control systems, and front-end technologies.<br />
-          </p>
-        </div>
 
       </div>
     </div>
