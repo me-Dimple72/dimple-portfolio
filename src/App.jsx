@@ -84,6 +84,17 @@ export default function App() {
       outcome: "AI-based solution to enhance medical images and automate clinical documentation using OpenCV and Azure OpenAI, supporting ICD-10 coding and EHR workflows.",
       tech: ["Python", "OpenCV", "Azure OpenAI","ICD-10 Code"]
       
+    },
+
+    {
+      title: "Code Evaluation Orchestra",
+      outcome: "AI-powered diabetes analysis & health assistant.",
+      link: "https://mecode-evaluation-orchestra.vercel.app/",
+      github: "https://github.com/me-Dimple72/code-evaluation-orchestra",
+      image: "/images/codeevalu.png",
+      outcome: "Code Evaluation Orchestra is an AI-agent-inspired coding practice evaluation platform. Users choose a problem, write a solution and receive structured, interview-style feedback instead of only pass/fail results.The project simulates how multiple AI agents collaborate to evaluate code — similar to how real interviewers assess solutions.",
+      tech: ["TypeScript", "Node.js", "TailwindCSS","Vercel"]
+      
     }
 
   ];
