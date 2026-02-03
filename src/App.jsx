@@ -86,8 +86,8 @@ export default function App() {
       
     },
     {
-      title: "Vision Lingo ",
-      outcome: "AI-powered Real-time Object Detection and Multilingual Vocabulary Learning App “Learning from the world around you.",
+      title: "Vision Lingo - Learning from the world around you ",
+      outcome: "AI-powered Real-time Object Detection and Multilingual Vocabulary Learning App",
       link: "https://sugar-sense-ai.vercel.app",
       github: "https://github.com/me-Dimple72/SugarSense-AI",
       image: "/images/vision lingo.png",
