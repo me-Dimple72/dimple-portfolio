@@ -91,7 +91,7 @@ export default function App() {
       link: "https://github.com/me-Dimple72/VisionLingo",
       github: "https://github.com/me-Dimple72/VisionLingo",
       image: "/images/vision lingo.png",
-      outcome: "",
+      outcome: "VisionLingo is a web-based AI system that combines real-time object detection, multilingual translation and speech synthesis to help users learn vocabulary directly from their surroundings. ",
       tech: ["TensorFlow", "COCO", "Multilingual Model", "NLP","Web Speech API "]
       
     },
