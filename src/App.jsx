@@ -183,7 +183,7 @@ export default function App() {
 
       {/* RESUME BUTTON */}
   <a
-    href="https://drive.google.com/file/d/1hZxuws9Ky1U1wuIvC1JJnImIKclJnXCu/view?usp=drivesdk"
+    href="/Users/dimple/Downloads/Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="mx-6  block text-start text-pink-500 font-semibold py-2 rounded-lg 
