@@ -74,6 +74,16 @@ export default function App() {
       tech: ["FastAPI", "Groq LLM", "React", "TailwindCSS"]
       
     },
+    {
+      title: "in'PDF",
+      outcome: "AI PDF Insight Engine",
+      link: "https://in-pdf.vercel.app/",
+      github: "https://github.com/me-Dimple72/in-pdf",
+      image: "/images/inpdf.png",
+      outcome: " AI summarization platform reducing document review time by 80% using LLM-powered analysis.",
+      tech: ["React.js","Express","LLM API"]
+      
+    },
 
     {
       title: "AI-Powered Enhanced EHR Imaging & Documentation System",
