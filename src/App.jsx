@@ -288,7 +288,7 @@ export default function App() {
               Passionate about transforming research ideas into practical products,contributing to open-source projects and continuously learning emerging technologies in generative AI,
               multimodal systems and AI evaluation.
               
-              I’m passionate about creating meaningful work and collaborating within the developer community.
+              I’m interested about creating meaningful work and collaborating within the developer community.
             </p>
           </div>
         </div>
