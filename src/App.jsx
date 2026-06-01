@@ -282,9 +282,12 @@ export default function App() {
           <h2 className="text-4xl font-bold mb-4">About </h2>
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8">
             <p className="text-gray-300 mb-6">
-              Focused on building production-ready AI and ML systems with 
-              clean data pipelines, reproducible experiments, and scalable deployment workflows.
-              I enjoy contributing to open-source, exploring new technologies, and continuously improving my skills.
+              Focused on building production-ready AI and ML systems with expertise in LLM applications,RAG pipelines
+              and scalable deployment workflows.Experienced in developing end-to-end AI solutions using Python,FastAPI,and modern AI frameworks 
+              while emphasizing reproducible experimentation and clean engineering practices.
+              Passionate about transforming research ideas into practical products,contributing to open-source projects and continuously learning emerging technologies in generative AI,
+              multimodal systems and AI evaluation.
+              
               I’m passionate about creating meaningful work and collaborating within the developer community.
             </p>
           </div>
