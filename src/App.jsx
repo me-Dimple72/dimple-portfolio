@@ -104,17 +104,6 @@ export default function App() {
       outcome: "VisionLingo is a web-based AI system that combines real-time object detection, multilingual translation and speech synthesis to help users learn vocabulary directly from their surroundings. ",
       tech: ["TensorFlow", "COCO", "Multilingual Model", "NLP","Web Speech API "]
       
-    },
-
-    {
-      title: "Code Evaluation Orchestra",
-      outcome: "AI-powered diabetes analysis & health assistant.",
-      link: "https://mecode-evaluation-orchestra.vercel.app/",
-      github: "https://github.com/me-Dimple72/code-evaluation-orchestra",
-      image: "/images/codeevalu.png",
-      outcome: "Code Evaluation Orchestra is an AI-agent-inspired coding practice evaluation platform. Users choose a problem, write a solution and receive structured, interview-style feedback instead of only pass/fail results.The project simulates how multiple AI agents collaborate to evaluate code — similar to how real interviewers assess solutions.",
-      tech: ["TypeScript", "Node.js", "TailwindCSS","Vercel"]
-      
     }
 
   ];
