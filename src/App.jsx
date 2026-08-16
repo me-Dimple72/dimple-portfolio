@@ -63,6 +63,17 @@ export default function App() {
   };
 
   const projects = [
+
+    {
+      title: "Vision Lingo - Learning from the world around you ",
+      outcome: "AI-powered Real-time Object Detection and Multilingual Vocabulary Learning App",
+      link: "https://visionlingo.vercel.app/",
+      github: "https://github.com/me-Dimple72/VisionLingo",
+      image: "/images/vision lingo.png",
+      outcome: "VisionLingo is a web-based AI system that combines real-time object detection, multilingual translation and speech synthesis to help users learn vocabulary directly from their surroundings. ",
+      tech: ["TensorFlow", "COCO", "Multilingual Model", "NLP","Web Speech API "]
+      
+    },
     
     {
       title: "SugarSense AI",
@@ -93,16 +104,6 @@ export default function App() {
       image: "/images/ehr.png" ,
       outcome: "AI-based solution to enhance medical images and automate clinical documentation using OpenCV and Azure OpenAI, supporting ICD-10 coding and EHR workflows.",
       tech: ["Python", "OpenCV", "Azure OpenAI","ICD-10 Code"]
-      
-    },
-    {
-      title: "Vision Lingo - Learning from the world around you ",
-      outcome: "AI-powered Real-time Object Detection and Multilingual Vocabulary Learning App",
-      link: "https://visionlingo.vercel.app/",
-      github: "https://github.com/me-Dimple72/VisionLingo",
-      image: "/images/vision lingo.png",
-      outcome: "VisionLingo is a web-based AI system that combines real-time object detection, multilingual translation and speech synthesis to help users learn vocabulary directly from their surroundings. ",
-      tech: ["TensorFlow", "COCO", "Multilingual Model", "NLP","Web Speech API "]
       
     }
 
