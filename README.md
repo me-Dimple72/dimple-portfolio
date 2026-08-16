@@ -1,11 +1,3 @@
-# 
-
-A sleek and interactive personal portfolio built with **React + Vite**, showcasing my work, skills, and achievements .
-
----
-
-
-
 ## 
 
 This portfolio displays:
