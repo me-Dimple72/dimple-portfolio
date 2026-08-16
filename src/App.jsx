@@ -98,7 +98,7 @@ export default function App() {
     {
       title: "Vision Lingo - Learning from the world around you ",
       outcome: "AI-powered Real-time Object Detection and Multilingual Vocabulary Learning App",
-      link: "https://github.com/me-Dimple72/VisionLingo",
+      link: "https://visionlingo.vercel.app/",
       github: "https://github.com/me-Dimple72/VisionLingo",
       image: "/images/vision lingo.png",
       outcome: "VisionLingo is a web-based AI system that combines real-time object detection, multilingual translation and speech synthesis to help users learn vocabulary directly from their surroundings. ",
